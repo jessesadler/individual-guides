@@ -1,0 +1,44 @@
+---
+title: "Zotero"
+title-slide-attributes:
+  data-background-color: "#861F41"
+author: "Jesse Sadler, University Libraries"
+format:
+  revealjs:
+    incremental: false
+---
+
+## Why bibliographical managers?
+1. Collect references
+2. Store PDFs, links, other documents
+3. Organize your references
+4. Read and markup PDFs and take notes
+5. Style citations
+6. Share references with collaborators
+
+## Why Zotero?
+- It is free and open source
+- Built by and for the humanities. It is a project created and maintained by a group called [Digital Scholar](https://digitalscholar.org) that also maintains Omeka and Tropy. It came out of the DH group at George Mason University.
+- Syncs across devices. There is a web version and iOS version.
+- Ability to collaborate through shared groups.
+
+## Things to keep in mind
+- Bibliographic managers are an investment. The time to learn 
+- Take time to read the documentation.
+- Take time to play around with Zotero or any other software to see how you want to use it and if you like it.
+- Bad data in leads to bad data out.
+
+## Resources on Zotero and bibliographical managers
+
+::: {.nonincremental}
+- [Zotero Research Guide](https://guides.lib.vt.edu/citationmanagers/Zotero)
+- [Video from the latest workshop on Zotero by Lisa Becksford Russell](https://video.vt.edu/media/Getting+Started+with+Zotero/1_66k4lx5d)
+:::
+
+## Contact me with questions {.center}
+
+email: jrsadler@vt.edu
+
+
+Book a consultation: <https://calendar.lib.vt.edu/appointments/jrsadler>
+
