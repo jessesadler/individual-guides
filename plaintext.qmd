@@ -8,8 +8,8 @@ format:
       - typst/typst-show.typ
 ---
 
-Jesse Sadler, University Libraries  
-email: <jrsadler@vt.edu>  
+Jesse Sadler, University Libraries
+email: <jrsadler@vt.edu>
 Book an appointment: <https://calendar.lib.vt.edu/appointments/jrsadler>
 
 ## Why write in plain text?
@@ -46,4 +46,4 @@ Two good cross-platform options to investigate are [Obsidian](https://obsidian.m
 - [DevonThink](https://www.devontechnologies.com/apps/devonthink) - MacOS with broad support for other kinds of documents.
 
 ## Taking it to the next level: Plain text for publication
-Good places to start for the why and how of writing in plain text for academic writing is Kieran Healy's [The Plain Person’s Guide to Plain Text Social Science](https://plain-text.co) and Programming Historian's lesson on [Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
+Good places to start for the why and how of writing in plain text for academic writing is Kieran Healy's [The Plain Person's Guide to Plain Text Social Science](https://plain-text.co) and Programming Historian's lesson on [Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
