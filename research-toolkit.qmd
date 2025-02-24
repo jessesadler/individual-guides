@@ -1,0 +1,85 @@
+---
+title: "Research and writing toolkit"
+format:
+  typst:
+    template: typst/template.typ
+    template-partials:
+      - typst/typst-template.typ
+      - typst/typst-show.typ
+---
+
+Jesse Sadler, University Libraries  
+email: <jrsadler@vt.edu>  
+Book an appointment: <https://calendar.lib.vt.edu/appointments/jrsadler>  
+
+## Organizing sources
+
+- [Zotero](https://www.zotero.org): Published sources
+- [Tropy](https://tropy.org): Archival sources
+
+Zotero and Tropy, either together or separate, can be at the center of your research and writing system. They can store references, the sources themselves, and your own notes. Search, Collections/folders, tags, and related items provide different ways to combine material in various ways to keep yourself organized and possibly find new avenues for research.
+
+Zotero and Tropy are also good examples of the need to invest time in developing your research and writing system. It takes time to input sources, all meta-data needs to be checked or created, and your organization system needs to be structured for your needs. Alternatively, you need to be careful not to spend too much time on building your research and writing system. The goal is to think and write, not develop the perfect system.
+
+## Toolkit philosophy
+1. Think critically about your information management.
+2. Take control of your data and information management.
+3. Organize resources for the long term as well as individual projects.
+4. Be able to search across and rearrange your notes and research material.
+5. Research and writing is a circular process, rarely (never?) proceeding in a linear fashion. Make it a virtuous cycle.
+
+## Organizing research and writing
+
+### File and folders
+In the late 2000s and early 2010s a number of applications became popular that were under the general category of everything bucket apps. The idea was that you could put all your notes, PDFs, and links from the web in one place that would be searchable and, with the rise of the smartphone, available everywhere at all times. The most well known of these apps is [EverNote](https://evernote.com). But people soon soured on the concept in general and EverNote in particular as everything buckets became unwieldy and it became increasingly difficult to get your data out of these apps. Two lessons can be taken from this:
+
+1. Asking one application to do everything is expecting too much. It is better to use multiple applications that are designed to be good at a core set of objectives.
+2. Applications change, and not always for the better, and sometimes they go away. New applications are created that might better fit your workflow. Avoid overdependance on any one application. Use generic tools such as files and folders to maintain control over your materials and make your workflow flexible.
+
+### Plain text and Markdown
+One of the best and most popular ways to implement these lessons and the Toolkit philosophy outlined above is to write (at least your notes) in plain text using [Markdown](https://daringfireball.net/projects/markdown/syntax) to add just enough structure and styling to your writing, while also making it ready to publish online. Plain text documents are lightweight and sustainable. They will be able to be read and displayed by a computer as long as we have such technology.
+
+**Index card system vs notebook system**: Taking notes in a word processor like Word or GoogleDocs is like taking notes in a notebook. All your notes are stuck in a linear structure unconnected from your other notes. Taking notes in plain text documents using Markdown based note taking apps and text editors is like taking notes on index cards. Index cards can be combined and rearranged across sources to help you think as you write.
+
+## Markdown based note taking apps
+There are an ever-expanding number of apps that are based on plain text and Markdown that are designed to build an index card like system that allows you to combine, search across, and link notes in various ways.
+
+- [Obsidian](https://obsidian.md/) is the most popular of the available apps with a seemingly endless amount of extensions that allow you to do all kinds of things with your text documents. There is a thriving [online community](https://obsidian.md/community) around building workflows in Obsidian. Obsidian is free and has an iOS app, but it is not open source.
+- [Tangent Notes](https://www.tangentnotes.com) a newer open source alternative to Obsidian.
+- [Zettlr](https://www.zettlr.com/): an open source alternative designed specifically for the academic market.
+- [iA Writer](https://ia.net/writer) a paid application that has macOS, Windows, and iOS versions. iA is simpler than Obsidian but is a well made app focused on design and typography.
+
+## Text editors
+Markdown based note taking apps unlock the power of a file and folder system based on plain text and Markdown, but text editors (built to write code) provide tools for search and replace that make them a useful tool to add to your toolkit.
+
+- Cross platform
+	- [Visual Studio Code](https://code.visualstudio.com) is much more than a text editor, but it can also be made into a good text editor for plain text and Markdown. It is free and open source and worthy of a download to check out. It is a bit technical, but if you look at the documentation
+	- [VSCodium](https://vscodium.com) is an alternative distribution of Visual Studio Code that only includes the open source portions of Visual Studio Code.
+	- A paid alternative is [Sublime Text](https://www.sublimetext.com).
+- macOS
+	- [BBEdit](https://www.barebones.com/products/bbedit/) is over 30 years old and still going strong. It is where I recommend you start if you are on a Mac. It has a robust free version, and if you find you want the features of the paid version, it is reasonably priced.
+	- [Zed](https://zed.dev) is a powerful open source text editor available for macOS and Linux. A Windows version is under development.
+	- [CotEditor](https://coteditor.com/) is a modern open source text editor that is very clean looking.
+- Windows
+	- A classic text editor for Windows is [Notepad++](https://notepad-plus-plus.org). It's Markdown support is limited. Visual Studio Code is probably the best option.
+
+## DevonThink
+[DevonThink](https://www.devontechnologies.com/apps/devonthink) deserves a special place on its own. It is one of the few remaining everything bucket apps. Unlike Evernote, DevonThink has always kept its focus on allowing you to maintain full control of your documents and respecting your system of files and folders. DevonThink allows you to create data bases of all kinds of documents, including various kinds of text documents, PDFs, and links and text from the internet. DevonThink enables you to create powerful searches across all of your materials. It is a paid app with a Standard version for $99 and a Pro version that includes OCR for $199.
+
+## Outlining
+Many of the Markdown based note taking apps include tools to make outlines. This might be a good place to start, but if you want more advanced features or different aesthetics there are plenty of alternatives. The majority of such apps are on macOS and iOS.
+
+- Windows
+	- [Microsoft OneNote](https://www.onenote.com)
+- macOS and iOS
+	- [Zavala](https://zavala.vincode.io) a lightweight, open source outliner for macOS and iOS.
+	- [Bike](https://www.hogbaysoftware.com/bike/) a paid app for macOS that has nice text features.
+	- [OmniOutliner](https://www.omnigroup.com/omniOutliner) a robust paid app for macOS and iOS. If you want all the outlining features, this is the app to turn to.
+	- [MindNode](https://www.mindnode.com) a paid mind mapping app that provides a more visual way to organize your ideas.
+
+## Word processor alternatives
+
+- [Scrivener](https://www.literatureandlatte.com/scrivener/overview)
+- [Mellel](https://www.mellel.com) a macOs and iOS app designed specifically for writing academic.
+- Writing in plain text
+	- Good places to start for the why and how of writing in plain text for academic writing is Kieran Healy's [The Plain Person's Guide to Plain Text Social Science](https://plain-text.co) and Programming Historian's lesson on [Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
