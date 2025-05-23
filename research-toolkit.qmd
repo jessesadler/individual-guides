@@ -33,8 +33,8 @@ Zotero and Tropy are also good examples of the need to invest time in developing
 ### File and folders
 In the late 2000s and early 2010s a number of applications became popular that were under the general category of everything bucket apps. The idea was that you could put all your notes, PDFs, and links from the web in one place that would be searchable and, with the rise of the smartphone, available everywhere at all times. The most well known of these apps is [EverNote](https://evernote.com). But people soon soured on the concept in general and EverNote in particular as everything buckets became unwieldy and it became increasingly difficult to get your data out of these apps. Two lessons can be taken from this:
 
-1. Asking one application to do everything is expecting too much. It is better to use multiple applications that are designed to be good at a core set of objectives.
-2. Applications change, and not always for the better, and sometimes they go away. New applications are created that might better fit your workflow. Avoid overdependance on any one application. Use generic tools such as files and folders to maintain control over your materials and make your workflow flexible.
+1. Asking one application to do everything is *probably* expecting too much. It is better to use multiple applications that are designed to be good at a core set of objectives.
+2. Applications change—not always for the better—and sometimes they go away. New applications are created that might better fit your workflow. Avoid overdependance on any one application. Use generic tools such as files and folders to maintain control over your materials and make your workflow flexible.
 
 ### Plain text and Markdown
 One of the best and most popular ways to implement these lessons and the Toolkit philosophy outlined above is to write (at least your notes) in plain text using [Markdown](https://daringfireball.net/projects/markdown/syntax) to add just enough structure and styling to your writing, while also making it ready to publish online. Plain text documents are lightweight and sustainable. They will be able to be read and displayed by a computer as long as we have such technology.
@@ -42,7 +42,7 @@ One of the best and most popular ways to implement these lessons and the Toolkit
 **Index card system vs notebook system**: Taking notes in a word processor like Word or GoogleDocs is like taking notes in a notebook. All your notes are stuck in a linear structure unconnected from your other notes. Taking notes in plain text documents using Markdown based note taking apps and text editors is like taking notes on index cards. Index cards can be combined and rearranged across sources to help you think as you write.
 
 ## Markdown based note taking apps
-There are an ever-expanding number of apps that are based on plain text and Markdown that are designed to build an index card like system that allows you to combine, search across, and link notes in various ways.
+There are an ever-expanding number of apps that are based on plain text and Markdown designed to build an index card like system that allows you to combine, search across, and link notes in various ways.
 
 - [Obsidian](https://obsidian.md/) is the most popular of the available apps with a seemingly endless amount of extensions that allow you to do all kinds of things with your text documents. There is a thriving [online community](https://obsidian.md/community) around building workflows in Obsidian. Obsidian is free and has an iOS app, but it is not open source.
 - [Tangent Notes](https://www.tangentnotes.com) a newer open source alternative to Obsidian.
@@ -64,7 +64,7 @@ Markdown based note taking apps unlock the power of a file and folder system bas
 	- A classic text editor for Windows is [Notepad++](https://notepad-plus-plus.org). It's Markdown support is limited. Visual Studio Code is probably the best option.
 
 ## DevonThink
-[DevonThink](https://www.devontechnologies.com/apps/devonthink) deserves a special place on its own. It is one of the few remaining everything bucket apps. Unlike Evernote, DevonThink has always kept its focus on allowing you to maintain full control of your documents and respecting your system of files and folders. DevonThink allows you to create data bases of all kinds of documents, including various kinds of text documents, PDFs, and links and text from the internet. DevonThink enables you to create powerful searches across all of your materials. It is a paid app with a Standard version for $99 and a Pro version that includes OCR for $199.
+[DevonThink](https://www.devontechnologies.com/apps/devonthink) deserves a special mention on its own. It is one of the few remaining everything bucket apps. Unlike Evernote, DevonThink has always kept its focus on allowing you to maintain full control of your documents and respecting your system of files and folders. DevonThink allows you to create databases of all kinds of documents, including various kinds of text documents, PDFs, and links and text from the internet. DevonThink enables you to create powerful searches across all of your materials, allowing you to move beyond searching your notes. It is a paid app with a Standard version for $99 and a Pro version that includes OCR for $199.
 
 ## Outlining
 Many of the Markdown based note taking apps include tools to make outlines. This might be a good place to start, but if you want more advanced features or different aesthetics there are plenty of alternatives. The majority of such apps are on macOS and iOS.
@@ -80,6 +80,6 @@ Many of the Markdown based note taking apps include tools to make outlines. This
 ## Word processor alternatives
 
 - [Scrivener](https://www.literatureandlatte.com/scrivener/overview)
-- [Mellel](https://www.mellel.com) a macOs and iOS app designed specifically for writing academic.
+- [Mellel](https://www.mellel.com) a macOs and iOS app designed specifically for academic writing.
 - Writing in plain text
 	- Good places to start for the why and how of writing in plain text for academic writing is Kieran Healy's [The Plain Person's Guide to Plain Text Social Science](https://plain-text.co) and Programming Historian's lesson on [Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
