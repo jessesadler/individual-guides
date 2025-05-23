@@ -9,12 +9,11 @@ format:
 ---
 
 Jesse Sadler, University Libraries  
-email: <jrsadler@vt.edu>  
-Book an appointment: <https://calendar.lib.vt.edu/appointments/jrsadler>
+email: <jrsadler@vt.edu>
 
 [Markdown](https://daringfireball.net/projects/markdown/syntax) is a plain text format that is intended to be easy to write and read but also able to provide enough markup options for most forms of writing. On the one hand, Markdown leverages the advantages of plain text: it is light weight, highly portable, non-proprietary, and easily searchable across different documents. On the other, Markdown text can be turned into HTML, PDFs, and even Word documents with stylized text through different interpreters.
 
-This document provides a basic overview of the Markdown syntax. Note that there are various "flavors" of Markdown that have different capabilities, but the basic syntax is largely shared between the flavors.
+This document provides a basic overview of the Markdown syntax. Note that there are various "flavors" of Markdown that have different capabilities and syntax. [GitHub Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github) and [Pandoc](https://pandoc.org) are two of the most widely used options. Generally you do not need to be overly concerned about the differences, but if something does not work as you expect, this may be the reason.
 
 ## Paragraphs
 ``` markdown
@@ -36,7 +35,7 @@ This will be a second paragraph.
 | *italics* or _italics_              |                                     |
 | ```                                 |                                     |
 +-------------------------------------+-------------------------------------+
-| ```                                 | **bold**                            | 
+| ```                                 | **bold**                            |
 | **bold** or __bold__                |                                     |
 | ```                                 |                                     |
 +-------------------------------------+-------------------------------------+
@@ -101,7 +100,7 @@ This will be a second paragraph.
 - unordered list
     - nested item
     - nested item
-        * further nesting 
+        * further nesting
 ```
 
 - unordered list
@@ -132,7 +131,7 @@ This will be a second paragraph.
 ```
 1. mixed list
     - unordered nesting
-        1. ordered nesting 
+        1. ordered nesting
         2. second ordered nesting
     - unordered nesting
 2. Second item
@@ -140,7 +139,7 @@ This will be a second paragraph.
 
 1. mixed list
     - unordered nesting
-        1. ordered nesting 
+        1. ordered nesting
         2. second ordered nesting
     - unordered nesting
 2. Second item
@@ -161,10 +160,10 @@ There are three main ways to create links in Markdown:
 
     ```
     [text to link][ref]
-    
+
     [ref]: https://lib.vt.edu
     ```
-    
+
     Becomes [text to link](https://lib.vt.edu)
 
 ## Footnotes
@@ -173,7 +172,7 @@ Footnotes are created in much the same way as reference links but a carrot (^) i
 ```
 Some text with a footnote.[^1]
 
-[^1]: The linked footnote appears at the end of the document.
+[^1]: The linked footnote appears at the end of the document in HTML and end of the page in a PDF.
 ```
 
 Some text with a footnote.[^1]
@@ -182,7 +181,7 @@ Some text with a footnote.[^1]
 
 {{< pagebreak >}}
 
-### Block quotes
+## Block quotes
 
 A block quote is created by type a greater than sign (>) followed by a space at the beginning of a line.
 
@@ -217,4 +216,4 @@ There are a couple of options for trying out Markdown on the web and provide a l
 - [Markdown Style Guide](https://markdownguide.offshoot.io/basic-syntax/)
 - Many Markdown editors, especially those that focus on academic writing, depend upon [Pandoc](https://pandoc.org), which attempts to be a universal document converter.
 	- Pandoc has an in-depth discussion of its flavor of [Markdown syntax](https://pandoc.org/MANUAL.html#pandocs-markdown).
-	- See also [Programming Historian: Dennis Tenen and Grant Wythoff, Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)
+	- See also [Programming Historian: Dennis Tenen and Grant Wythoff, Sustainable Authorship in Plain Text using Pandoc and Markdown](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown).
