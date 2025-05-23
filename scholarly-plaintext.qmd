@@ -1,0 +1,28 @@
+---
+title: "Scholarly writing in plaintext"
+format:
+  typst:
+    template: typst/template.typ
+    template-partials:
+      - typst/typst-template.typ
+      - typst/typst-show.typ
+      citeproc: true
+      bibliography: references.bib
+      csl: https://www.zotero.org/styles/chicago-fullnote-bibliography
+      suppress-bibliography: true
+---
+
+Tools
+
+- Zotero
+- BetterBibTex
+- Pandoc
+
+## Pandoc citations and footnotes
+Pandoc is designed for scholarly writing and provides an additional syntax for [footnotes with citations](https://pandoc.org/MANUAL.html#citation-syntax). If you have a [BibTex file](https://bibtex.org) with references, you can cite a source and have it automatically formatted in your chosen biblipgraphic style. The Pandoc citation footnote is different in only needing square brackets with a citekey for the reference prepended with an `@` symbol. The citation style determines whether the output is inline parenthetical citation or a footnote.
+
+```
+A sentence with a citation footnote.[@davis1983a]
+```
+
+A sentence with a citation footnote.[@davis1983a]
