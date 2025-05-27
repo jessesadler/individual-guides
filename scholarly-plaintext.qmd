@@ -17,6 +17,7 @@ Tools
 - Zotero
 - BetterBibTex
 - Pandoc
+- Quarto
 
 ## Pandoc citations and footnotes
 Pandoc is designed for scholarly writing and provides an additional syntax for [footnotes with citations](https://pandoc.org/MANUAL.html#citation-syntax). If you have a [BibTex file](https://bibtex.org) with references, you can cite a source and have it automatically formatted in your chosen biblipgraphic style. The Pandoc citation footnote is different in only needing square brackets with a citekey for the reference prepended with an `@` symbol. The citation style determines whether the output is inline parenthetical citation or a footnote.
