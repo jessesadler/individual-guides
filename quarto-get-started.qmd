@@ -18,7 +18,7 @@ Quarto is a tool for publishing data science documents that mix together code an
 - The [Quarto documentation](https://quarto.org/docs/guide/) is very good and covers a wide array of topics.
 - [Using R](https://quarto.org/docs/computations/r.html) provides a good overview of making a Quarto document with R code and output.
 - There is a similar guide for writing Quarto documents in the [RStudio IDE](https://quarto.org/docs/tools/rstudio.html).
-- The [R Markdown documentation](https://rmarkdown.rstudio.com/index.html) continues to be 
+- The [R Markdown documentation](https://rmarkdown.rstudio.com/index.html) continues to be useful.
 
 ### Structure of a Quarto document
 The structure of Quarto documents is very similar to R Markdown documents.
