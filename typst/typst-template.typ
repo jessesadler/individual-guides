@@ -12,7 +12,7 @@
   paper: "us-letter",
   lang: "en",
   region: "US",
-  font: "linux libertine",
+  font: "libertinus serif",
   fontsize: 11pt,
   sectionnumbering: none,
   toc: false,
@@ -23,6 +23,7 @@
 ) = {
   show link: underline
   show link: set text(rgb("#861F41"))
+  show raw: set text(font: "JetBrainsMono NF")
   show quote: set pad(x: 2em)
   show quote: set block(spacing: 1em)
 
@@ -32,7 +33,7 @@
     margin: margin,
     numbering: "1",
   )
-  set par(justify: true)
+  set par(justify: false)
   set text(lang: lang,
            region: region,
            font: font,
