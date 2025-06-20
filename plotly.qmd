@@ -1,0 +1,100 @@
+---
+title: "Plotly"
+format: html
+execute:
+  eval: false
+---
+
+## Use of `plot_ly()`
+
+```{r}
+plot_ly(interviews_plotting, x = ~village)
+```
+
+```{r}
+plot_ly(interviews_plotting, x = ~no_membrs, y = ~number_items, color = ~village)
+```
+
+Click on legend to filter by group.
+
+Show **modebar**: The modebar provides a number of tools for the user to use to interact with the plot. Play around with what you can do.
+
+These tools can be modified with `config()`.
+
+```{r}
+# Show no bar
+interviews_plotting |> 
+  plot_ly(x = ~no_membrs, y = ~number_items, color = ~village) |> 
+  config(displayModeBar = FALSE)
+
+# Remove plotly logo
+config(displaylogo = FALSE)
+```
+
+## ggplotly
+Save `ggplot` as a variable and then call `ggplotly()`.
+
+```{r}
+p <- interviews_plotting |> 
+  ggplot(aes(x = no_membrs, y = number_items)) +
+  geom_jitter(aes(color = village),
+              alpha = 0.7, width = 0.2, height = 0.2)
+ggplotly(p)
+```
+
+### Highlight groups
+
+Highlight groups with `highlight_key()`.
+
+```{r}
+p <- interviews_plotting |> 
+    highlight_key(~village) |> 
+    ggplot(aes(x = no_membrs, y = number_items)) +
+    geom_jitter(aes(color = village),
+                alpha = 0.7, width = 0.2, height = 0.2)
+ggplotly(p)
+```
+
+Options for highlighting data in one or more plots with `highlight`
+
+- `selectize`: whether or not to render a selectize.js widget for selecting `highlight_key()` values.
+- `dynamic`: should a widget for changing selection colors be included?
+- `persistent`: should selections persist? `FALSE` is recommended because you can do persistent selection by holding the shift key.
+- `off`: `"plotly_doubleclick"` turns off 
+
+```{r}
+highlight(
+  ggplotly(p),
+  selectize = TRUE,
+  off = "plotly_doubleclick"
+)
+```
+
+### Connect two plots
+Connecting two plots with `highlight_key()` and `subplot()`
+
+The two plots need to be made with the same data with the same `highlight_key()`.
+
+```{r}
+interviews_village <- interviews_plotting |> 
+  highlight_key(~village)
+
+p1 <- interviews_village |> 
+  ggplot(aes(x = no_membrs, y = number_items)) +
+  geom_jitter(aes(color = village),
+              alpha = 0.7, width = 0.2, height = 0.2)
+
+p2 <- interviews_village |>
+  ggplot(aes(x = respondent_wall_type)) +
+  geom_bar(aes(fill = village), position = "dodge")
+
+subplot(ggplotly(p1), ggplotly(p2)) |> 
+  highlight(off = "plotly_doubleclick")
+```
+
+## Tooltips
+Restrict what is shown in the tooltips with `tooltip` in `ggplotly()`
+
+```{r}
+ggplotly(p2, tooltip = "count")
+```
