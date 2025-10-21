@@ -1,5 +1,9 @@
 ---
-title: "Zotero"
+title: "Getting the most out of bibliographic managers: Zotero"
+author:
+  - name: "Jesse Sadler"
+    email: jrsadler@vt.edu
+    affiliation: "University Libraries"
 format:
   typst:
     template: typst/template.typ
@@ -8,10 +12,7 @@ format:
       - typst/typst-show.typ
 ---
 
-Jesse Sadler, University Libraries  
-email: <jrsadler@vt.edu>  
 Book an appointment: <https://calendar.lib.vt.edu/appointments/jrsadler>
-
 
 ### Why bibliographical managers?
 1. Collect references

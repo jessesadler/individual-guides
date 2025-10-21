@@ -2,7 +2,10 @@
 title: "Zotero"
 title-slide-attributes:
   data-background-color: "#861F41"
-author: "Jesse Sadler, University Libraries"
+author:
+  - name: "Jesse Sadler"
+    email: jrsadler@vt.edu
+    affiliation: "University Libraries"
 format:
   revealjs:
     incremental: false
