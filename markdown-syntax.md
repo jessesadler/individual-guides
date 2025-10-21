@@ -1,5 +1,9 @@
 ---
 title: "Markdown syntax"
+author:
+  - name: "Jesse Sadler"
+    email: jrsadler@vt.edu
+    affiliation: "University Libraries"
 format:
   typst:
     template: typst/template.typ
@@ -7,9 +11,6 @@ format:
       - typst/typst-template.typ
       - typst/typst-show.typ
 ---
-
-Jesse Sadler, University Libraries  
-email: <jrsadler@vt.edu>
 
 [Markdown](https://daringfireball.net/projects/markdown/syntax) is a plain text format that is intended to be easy to write and read but also able to provide enough markup options for most forms of writing. On the one hand, Markdown leverages the advantages of plain text: it is light weight, highly portable, non-proprietary, and easily searchable across different documents. On the other, Markdown text can be turned into HTML, PDFs, and even Word documents with stylized text through different interpreters.
 

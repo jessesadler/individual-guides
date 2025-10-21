@@ -1,5 +1,9 @@
 ---
 title: "Working with Plain Text"
+author:
+  - name: "Jesse Sadler"
+    email: jrsadler@vt.edu
+    affiliation: "University Libraries"
 format:
   typst:
     template: typst/template.typ
@@ -7,10 +11,6 @@ format:
       - typst/typst-template.typ
       - typst/typst-show.typ
 ---
-
-Jesse Sadler, University Libraries
-email: <jrsadler@vt.edu>
-Book an appointment: <https://calendar.lib.vt.edu/appointments/jrsadler>
 
 ## Why write in plain text?
 Writing in plain text may seem odd at first, and it confronts the beginner with a number of issues compared to word processing applications such as Microsoft Word or Google Docs that use a WYSIWYG (what you see is what you get) interface. However, there are a number of advantages to using plain text documents that make the initial discomfort worth it.
