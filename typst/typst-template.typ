@@ -12,7 +12,7 @@
   paper: "us-letter",
   lang: "en",
   region: "US",
-  font: "libertinus serif",
+  font: "Libertinus Serif",
   fontsize: 11pt,
   sectionnumbering: none,
   toc: false,
@@ -23,7 +23,7 @@
 ) = {
   show link: underline
   show link: set text(rgb("#861F41"))
-  show raw: set text(font: "JetBrainsMono NF")
+  show raw: set text(font: "DejaVu Sans Mono")
   show quote: set pad(x: 2em)
   show quote: set block(spacing: 1em)
 
@@ -31,7 +31,7 @@
   set page(
     paper: paper,
     margin: margin,
-    numbering: "1",
+    numbering: "1", // to remove page numbers numbering: none,
   )
   set par(justify: false)
   set text(lang: lang,
@@ -40,12 +40,12 @@
            size: fontsize)
   set heading(numbering: sectionnumbering)
   if title != none {
-    align(center)[#block(inset: 2em)[
+    align(center)[#block(below: 2em)[
       // = #title
       #if title-font != none {
-        text(weight: "bold", size: 1.5em, font: title-font)[#title]
+        text(weight: "bold", size: 2em, font: title-font, rgb("#861F41"))[#title]
       } else {
-        text(weight: "bold", size: 1.5em)[#title]
+        text(weight: "bold", size: 2em, rgb("#861F41"))[#title]
       }
     ]]
   }
@@ -67,7 +67,7 @@
   }
 
   if date != none {
-    align(center)[#block(inset: 1em)[
+    align(center)[#block(inset: 0em)[
       #date
     ]]
   }
