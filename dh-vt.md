@@ -15,11 +15,11 @@ format:
 ---
 
 ## Digital Humanities
-- What is digital humanities?
-	- What do you think of when you hear digital humanities or digital history?
+- What is Digital Humanities?
+	- What do you think of when you hear Digital Humanities or Digital History?
 	- What are you interested in hearing more about?
 - Significance of showing the value of scholarship by making the work public.
-	- Digital humanities is often associated with open access and Public History.
+	- Digital Humanities is often associated with the Open Access movement and Public Humanities.
 - Digital Humanities as both how you do research and how you present it.
 	- Tools and technology having an impact on the scholarship.
 	- Being critical about how you do work and how it is presented.
@@ -32,13 +32,13 @@ format:
 
 ## Where to get started?
 - Digital Humanities at the Library
-	- Digital Scholarship Collaboration Hour, Mondays 12pm–1pm in the Athenaeum Collaboration room (Newman Library 126).
+	- Digital Scholarship Collaboration Hour, Mondays 12pm–1pm in the Athenaeum Collaboration room, Newman Library 126. (Day and time may change next semester)
 	- Email us at <dhlibsupport@vt.edu>
 	- Book a consultation at <https://calendar.lib.vt.edu/appointments>
 - The Digital Humanities Research Guide: <https://guides.lib.vt.edu/dh>
-	- Resources: Debates in the Digital Humanities <https://dhdebates.gc.cuny.edu/>
-	- Communities: Organizations and online communities
-	- Critical DH
+	- [Resources](https://guides.lib.vt.edu/dh/resources): Debates in the Digital Humanities <https://dhdebates.gc.cuny.edu/>
+	- [Communities](https://guides.lib.vt.edu/dh/communities): Organizations and online communities
+	- [Tools](https://guides.lib.vt.edu/dh/tools): DH tools and how to get help from the Library.
 
 ## Tools
 - Visualization
