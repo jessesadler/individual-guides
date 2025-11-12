@@ -10,6 +10,7 @@
   cols: 1,
   margin: (x: 1in, y: 1in),
   paper: "us-letter",
+  page_numbering: "1",
   lang: "en",
   region: "US",
   font: "Libertinus Serif",
@@ -31,7 +32,7 @@
   set page(
     paper: paper,
     margin: margin,
-    numbering: "1", // to remove page numbers numbering: none,
+    numbering: page_numbering, // to remove page numbers numbering: none, to use Arabic numerals "1",
   )
   set par(justify: false)
   set text(lang: lang,
@@ -39,6 +40,7 @@
            font: font,
            size: fontsize)
   set heading(numbering: sectionnumbering)
+
   if title != none {
     align(center)[#block(below: 2em)[
       // = #title
